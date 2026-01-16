@@ -21,7 +21,7 @@ def text_classify_using_ml(text: str) -> str:
 from openai import OpenAI
 
 client = OpenAI(
-        api_key="sk-fab60036ed814aa7ac715827702c5813",
+        api_key="sk-fab60036xxxxx15827702c5813",
 
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
     )
