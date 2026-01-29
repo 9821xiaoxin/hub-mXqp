@@ -225,3 +225,44 @@ print(f"输入 '{new_text}' 预测为: '{predicted_class}'")
 new_text_2 = "查询明天北京的天气"
 predicted_class_2 = classify_text_lstm(new_text_2, model, char_to_index, max_len, index_to_label)
 print(f"输入 '{new_text_2}' 预测为: '{predicted_class_2}'")
+
+# 运行结果
+Batch 个数 0, 当前Batch Loss: 2.49912166595459
+Batch 个数 50, 当前Batch Loss: 2.5192880630493164
+Batch 个数 100, 当前Batch Loss: 2.314656972885132
+Batch 个数 150, 当前Batch Loss: 1.655076265335083
+Batch 个数 200, 当前Batch Loss: 1.091538906097412
+Batch 个数 250, 当前Batch Loss: 0.7952993512153625
+Batch 个数 300, 当前Batch Loss: 0.611301064491272
+Batch 个数 350, 当前Batch Loss: 0.6169086694717407
+Epoch [1/4], Loss: 1.3998
+Batch 个数 0, 当前Batch Loss: 0.6831258535385132
+Batch 个数 50, 当前Batch Loss: 0.39044705033302307
+Batch 个数 100, 当前Batch Loss: 0.6044697165489197
+Batch 个数 150, 当前Batch Loss: 0.7187166810035706
+Batch 个数 200, 当前Batch Loss: 0.12334746867418289
+Batch 个数 250, 当前Batch Loss: 0.6446067094802856
+Batch 个数 300, 当前Batch Loss: 0.18769295513629913
+Batch 个数 350, 当前Batch Loss: 0.3538445830345154
+Epoch [2/4], Loss: 0.4547
+Batch 个数 0, 当前Batch Loss: 0.3337913751602173
+Batch 个数 50, 当前Batch Loss: 0.14884865283966064
+Batch 个数 100, 当前Batch Loss: 0.2314063012599945
+Batch 个数 150, 当前Batch Loss: 0.3167068064212799
+Batch 个数 200, 当前Batch Loss: 0.14145313203334808
+Batch 个数 250, 当前Batch Loss: 0.6335572004318237
+Batch 个数 300, 当前Batch Loss: 0.04653419554233551
+Batch 个数 350, 当前Batch Loss: 0.3625326454639435
+Epoch [3/4], Loss: 0.3030
+Batch 个数 0, 当前Batch Loss: 0.15402768552303314
+Batch 个数 50, 当前Batch Loss: 0.20025727152824402
+Batch 个数 100, 当前Batch Loss: 0.19655057787895203
+Batch 个数 150, 当前Batch Loss: 0.20549416542053223
+Batch 个数 200, 当前Batch Loss: 0.13411934673786163
+Batch 个数 250, 当前Batch Loss: 0.11179609596729279
+Batch 个数 300, 当前Batch Loss: 0.11357773840427399
+Batch 个数 350, 当前Batch Loss: 0.1477225422859192
+Epoch [4/4], Loss: 0.2200
+输入 '帮我导航到北京' 预测为: 'Travel-Query'
+输入 '查询明天北京的天气' 预测为: 'Weather-Query'
+
